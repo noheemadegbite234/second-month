@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>noheem</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+      text-align: center;
+      margin: 0;
+      padding: 20px;
+    }
+    h1 {
+      font-size: 36px;
+      color: #2a0a5e;
+      letter-spacing: 3px;
+    }
+    .student-info {
+      background-color: #e6d9ff;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+      width: 80%;
+      margin: 20px auto;
+      text-align: left;
+      position: relative;
+    }
+
+    .badge {
+      background-color: #00b359;
+      color: white;
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: bold;
+      font-size: 14px;
+      position: absolute;
+      top: -15px;
+      right: -15px;
+      animation: pulse 1.5s infinite;
+    }
+    table {
+      width: 80%;
+      margin: 20px auto;
+      border-collapse: collapse;
+      background-color: white;
+    }
+
+    th, td {
+      border: 1px solid #ccc;
+      padding: 12px;
+    }
+
+    th {
+      background-color: #2a0a5e;
+      color: white;
+    }
+
+    tr:nth-child(even) {
+      background-color: #f0eaff;
+    }
+    tr {
+      transition: background-color 0.3s;
+    }
+
+    tr:hover {
+      background-color: #d9c8ff;
+    }
+
+    button {
+      background-color: #2a0a5e;
+      color: white;
+      padding: 12px 25px;
+      border: none;
+      border-radius: 8px;
+      font-size: 16px;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+
+    button:hover {
+      background-color: #5b2bc0;
+    }
+
+    button:active {
+      background-color: #ff6600;
+      transform: scale(0.95);
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Student Result Card</h1>
+
+  <div class="student-info">
+    <span class="badge">PASS</span>
+
+    <p><b>Name:</b> Ama Mensah</p>
+    <p><b>Class:</b> JHS 2 - A</p>
+    <p><b>Average Score:</b> 82%</p>
+  </div>
+
+  <table>
+    <tr>
+      <th>Subject</th>
+      <th>Score</th>
+      <th>Grade</th>
+    </tr>
+    <tr>
+      <td>Mathematics</td>
+      <td>88</td>
+      <td>A</td>
+    </tr>
+    <tr>
+      <td>English Language</td>
+      <td>79</td>
+      <td>B</td>
+    </tr>
+    <tr>
+      <td>Integrated Science</td>
+      <td>85</td>
+      <td>A</td>
+    </tr>
+    <tr>
+      <td>Social Studies</td>
+      <td>76</td>
+      <td>B</td>
+    </tr>
+    <tr>
+      <td>ICT</td>
+      <td>90</td>
+      <td>A</td>
+    </tr>
+    <tr>
+      <td>French</td>
+      <td>74</td>
+      <td>B</td>
+    </tr>
+  </table>
+
+  <button>Print Result</button>
+
+</body>
+</html>j
